@@ -1,11 +1,11 @@
 openai-service:
-  api-key:
+  api-key: ${API_KEY}
   gpt-model: gpt-3.5-turbo
   audio-model: whisper-1
   http-client:
-    read-timeout: 3000
-    connect-timeout: 3000
+    read-timeout: ${READ_TIMEOUT}
+    connect-timeout: ${CONNECT_TIMEOUT}
   urls:
-    base-url: https://api.openai.com/v1
-    chat-url: /chat/completions
-    create-transcription-url: /audio/transcriptions
+    base-url: ${BASE_URL}
+    chat-url: ${CHAT_URL}
+    create-transcription-url: ${AUDIO_URL}
