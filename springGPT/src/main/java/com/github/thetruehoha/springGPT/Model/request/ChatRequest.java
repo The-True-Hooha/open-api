@@ -1,10 +1,7 @@
 package com.github.thetruehoha.springGPT.Model.request;
 
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import java.io.Serializable;
 import java.util.List;
@@ -14,7 +11,8 @@ import java.util.List;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class OpenApiRequest implements Serializable {
+@Builder
+public class ChatRequest implements Serializable {
     private String model;
     private List<Message> messages;
 }
