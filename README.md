@@ -1,6 +1,6 @@
 # OpenAI API Readme
 
-This repository provides an integration of the OpenAI API into your application. With the OpenAI API, you can access state-of-the-art natural language processing and machine learning models, including GPT-3 and DALL-E.
+This repository provides a simple integration of the OpenAI API into a basic spring app. With the OpenAI API, you can access state-of-the-art natural language processing and machine learning models, including GPT-3 and DALL-E.
 
 ## Getting Started
 
